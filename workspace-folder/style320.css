@@ -1,0 +1,158 @@
+@media screen and (min-device-width: 320px) and (max-device-width: 639px) {
+
+html {
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+  body {
+    width: 320px;
+    margin:0;
+  }
+  
+  nav {
+    height: 60px;
+    font-size: 6px;
+    line-height: 60px;
+    font-weight: 900;
+    background-color: rgb(39, 33, 44);
+    color: white;
+  }
+  
+  ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+    margin:0;
+    padding-top: 0px;
+  }
+  
+  li {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-left: 9px;
+    padding-right: 18px;
+  }
+  
+  .free {
+    margin-top: -35px;
+    height: 250px;
+    background-color: rgb(12, 163, 185);
+  }
+
+  .site {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(158, 208, 219);
+    font-size: 18px;
+    text-align: left;
+    padding-left: 63px;
+    display: flex;
+  }
+  
+  .robin {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 90px;
+    width: 900px;
+    background-color: rgb(39, 33, 44);
+    color:rgb(136, 121, 150);
+    text-align:center;
+    line-height: 90px;
+    padding-left: 0px;
+    font-size:15px;
+  }
+
+  .pointer {
+    padding-left: 33px;
+  }
+
+  .pointer img {
+    height: 14px;
+    width: 14px;
+  }
+
+  .pink-pointer {
+    width: 200px;
+    background-color: rgb(188, 49, 131);
+    text-align: center;
+    padding-top: 33px;
+  }
+
+  .pink-pointer img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .bar {
+    display: flex;
+  }
+
+  .picture-bar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .violet-pointer {
+    width: 320px;
+    height: 200px;
+    background-color: rgb(91, 15, 161);
+    text-align: center;
+    padding-top: 115px;
+  }
+
+  .child img {
+    margin-top: -5px;
+  }
+
+  footer {
+    width: 320px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    margin-top:-5px;
+    background-color: rgb(235, 235, 235);
+  }
+
+  .first {
+    width: 512px;
+  }
+
+  .second {
+    width: 512px;
+  }
+
+  .picture-bar img {
+    width: 320px;
+    height: 250px;
+  }
+
+  .violet-pointer img {
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+  }
+
+  .article {
+    font-size: 10px;
+  }
+
+ h2 {
+    font-size: 18px;
+    line-height: -15;
+    padding-left: 20px;
+    color: rgb(8, 140, 165);
+  }
+
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 70px;
+  }
+
+  h5 {
+    color: rgb(109, 109, 109);
+    padding-left: 20px;
+    padding-right: 10px;
+    width: 300px;
+  }
+}
